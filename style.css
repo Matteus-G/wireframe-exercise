@@ -1,0 +1,61 @@
+header {
+  background-color: darkgray;
+  margin-bottom: 20px;
+}
+header nav {
+  width: 960px;
+  margin:auto;
+  display:flex;
+}
+
+header nav ul li {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+main {
+  width: 960px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main img {
+  margin-bottom: 30px
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+article{
+  height: 400px;
+  margin-left: 30px;
+}
+article section {
+  height: 320px;
+  overflow-y: scroll;
+  scrollbar-color: royalblue green;
+  scrollbar-width: thin;
+}
+
+h3 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 10px;
+  
+}
+p {
+  margin: 10px;
+
+}
+article div {
+  background-color: black;
+  color: lightgrey;
+  width: 90px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
